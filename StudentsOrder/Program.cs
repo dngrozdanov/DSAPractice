@@ -14,20 +14,17 @@ namespace StudentsOrder
             var tempDictionary = new Dictionary<string, LinkedListNode<string>>();
             foreach (var item in input)
             {
-                var node = Passengers.AddLast(item);
-                tempDictionary.Add(item, node);
+                tempDictionary.Add(item, Passengers.AddLast(item));
             }
             for (int i = 0; i < int.Parse(numbers[1]); i++)
             {
-                var temp = Console.ReadLine().Split();
-                Passengers.Remove(temp[0]);
-                Passengers.AddBefore(tempDictionary[temp[1]], temp[0]);
-                tempDictionary[temp[0]] = Passengers.AddBefore(tempDictionary[temp[1]], temp[0]);
+                string inputLine = Console.ReadLine();
+                var toBeMoved = tempDictionary[inputLine.Substring(0,inputLine.IndexOf(' '))];
+                var toBeMovedNextTo = tempDictionary[inputLine.Substring(inputLine.IndexOf(' ') + 1)];
+                Passengers.Remove(toBeMoved);
+                Passengers.AddBefore(toBeMovedNextTo, toBeMoved);
             }
-            foreach (var item in Passengers)
-            {
-                Console.Write(item + " ");
-            }
+            Console.WriteLine(string.Join(" ", Passengers));
         }
     }
 }
