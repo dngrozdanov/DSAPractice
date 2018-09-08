@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CokiSkoki", "CokiSkoki\CokiSkoki.csproj", "{BDB44FEC-3257-45B3-8F64-84B2A0A1464E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CokiSkoki", "CokiSkoki\CokiSkoki.csproj", "{BDB44FEC-3257-45B3-8F64-84B2A0A1464E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsOrder", "StudentsOrder\StudentsOrder.csproj", "{03755479-6F21-42DC-B546-290481AA972A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsOrder", "StudentsOrder\StudentsOrder.csproj", "{03755479-6F21-42DC-B546-290481AA972A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDNLToy", "HDNLToy\HDNLToy.csproj", "{4513A045-1C7C-4290-81D9-96D523A9C5AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDNLToy", "HDNLToy\HDNLToy.csproj", "{4513A045-1C7C-4290-81D9-96D523A9C5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeBinaryTrees", "MergeBinaryTrees\MergeBinaryTrees.csproj", "{B2077C2F-C972-4202-9E50-C0A06F087076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4513A045-1C7C-4290-81D9-96D523A9C5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4513A045-1C7C-4290-81D9-96D523A9C5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4513A045-1C7C-4290-81D9-96D523A9C5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2077C2F-C972-4202-9E50-C0A06F087076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2077C2F-C972-4202-9E50-C0A06F087076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2077C2F-C972-4202-9E50-C0A06F087076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2077C2F-C972-4202-9E50-C0A06F087076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
