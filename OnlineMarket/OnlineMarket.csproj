@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IProduct.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Huitian.PowerCollections" Version="1.0.0" />
+  </ItemGroup>
+</Project>

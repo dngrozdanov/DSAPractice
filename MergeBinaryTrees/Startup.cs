@@ -36,13 +36,13 @@ namespace MergeBinaryTrees
             var foundResultBST = Solution.SearchBST(firstTree, 5);
             Console.WriteLine(foundResultBST);*/
             #endregion
-            
+
             #region All Possible Paths Logic
             // INFO: resultTree - All Possible Paths
-            var firstTree = new Solution.TreeNode(4);
+            var firstTree = new Solution.TreeNode(30);
             // Test Cases
             var Data = new List<int>
-                {5, 10, 1, 2, 3, 6, 7, 11, 20, 12, 8, 44, 24, 17, 21, 77, 88, 99, 34, 45, 67, 41, 32, 38};
+                {29, 27, 23, 4, 87, 32, 73, 69, 90};
             Solution.InsertData(ref firstTree, Data);
 
             var resultTree = Solution.BinaryTreePaths(firstTree);
@@ -152,11 +152,8 @@ namespace MergeBinaryTrees
 
         public static void InsertData(ref TreeNode node, int data)
         {
-            if (node == null)
-                node = new TreeNode(data);
-            else if (node.val < data)
-                InsertData(ref node.right, data);
-
+            if (node == null) node = new TreeNode(data);
+            else if (node.val < data) InsertData(ref node.right, data);
             else if (node.val > data) InsertData(ref node.left, data);
         }
 

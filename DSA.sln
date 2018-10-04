@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CokiSkoki", "CokiSkoki\CokiSkoki.csproj", "{BDB44FEC-3257-45B3-8F64-84B2A0A1464E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CokiSkoki", "CokiSkoki\CokiSkoki.csproj", "{BDB44FEC-3257-45B3-8F64-84B2A0A1464E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsOrder", "StudentsOrder\StudentsOrder.csproj", "{03755479-6F21-42DC-B546-290481AA972A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsOrder", "StudentsOrder\StudentsOrder.csproj", "{03755479-6F21-42DC-B546-290481AA972A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeBinaryTrees", "MergeBinaryTrees\MergeBinaryTrees.csproj", "{B2077C2F-C972-4202-9E50-C0A06F087076}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeBinaryTrees", "MergeBinaryTrees\MergeBinaryTrees.csproj", "{B2077C2F-C972-4202-9E50-C0A06F087076}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerRanking", "PlayerRanking\PlayerRanking.csproj", "{3F693956-038B-4B64-9C79-7A6513C787DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMarket", "OnlineMarket\OnlineMarket.csproj", "{4D34CBBB-90A8-4374-9E05-DE617EE5A7C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostsFormalContest", "PostsFormalContest\PostsFormalContest.csproj", "{420CE251-1291-4BD8-9559-AF6DF860CE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxies", "Galaxies\Galaxies.csproj", "{26671793-74A1-4A87-B0CD-C9E81D04F053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersEasy", "NumbersEasy\NumbersEasy.csproj", "{F68A3ACC-0F03-4CE1-99DF-99860C0DA761}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,18 @@ Global
 		{3F693956-038B-4B64-9C79-7A6513C787DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F693956-038B-4B64-9C79-7A6513C787DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F693956-038B-4B64-9C79-7A6513C787DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420CE251-1291-4BD8-9559-AF6DF860CE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420CE251-1291-4BD8-9559-AF6DF860CE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420CE251-1291-4BD8-9559-AF6DF860CE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420CE251-1291-4BD8-9559-AF6DF860CE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26671793-74A1-4A87-B0CD-C9E81D04F053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26671793-74A1-4A87-B0CD-C9E81D04F053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26671793-74A1-4A87-B0CD-C9E81D04F053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26671793-74A1-4A87-B0CD-C9E81D04F053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68A3ACC-0F03-4CE1-99DF-99860C0DA761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68A3ACC-0F03-4CE1-99DF-99860C0DA761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68A3ACC-0F03-4CE1-99DF-99860C0DA761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68A3ACC-0F03-4CE1-99DF-99860C0DA761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
